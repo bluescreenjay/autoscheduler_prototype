@@ -1,0 +1,100 @@
+Overall Structure
+
+The diagram describes how a 2-hour block is divided into two 1-hour segments:
+
+Hour 1 (H1)
+
+Hour 2 (H2)
+
+Each hour is further divided into slots, each lasting 20 minutes.
+
+Hour 1 → S1, S2, S3
+
+Hour 2 → S4, S5, S6
+
+Slots (Slot Level – Blue)
+
+Each slot represents a 20-minute time window.
+
+S1–S6 are the six slots across the 2-hour block.
+
+Groups (Group Level – Pink)
+
+Groups combine slots into 40-minute sessions:
+
+Group 1 (G1): S1 (H1) + S4 (H2) → Priority Group
+
+Group 2 (G2): S2 (H1) + S5 (H2) → Flexible Group
+
+Group 3 (G3): S3 (H1) + S6 (H2) → Priority Group
+
+So, groups always link one slot from H1 with a corresponding slot from H2.
+
+Availability Levels (Green)
+
+This part explains how applicants are assigned groups/slots depending on whether they are available for just H1, just H2, or both.
+
+If applicant has H1 only → they can only do slots in H1.
+
+Prefer G1 (which includes S1)
+
+Or just S1 if grouping isn’t possible
+
+If applicant has both H1 and H2 → best option is G2 (S2 + S5), since it requires presence across both hours.
+
+If applicant has H2 only → they can only do slots in H2.
+
+Prefer G3 (which includes S6)
+
+Overflow Slots
+
+S3 and S4 are designated as overflow slots, used when primary groups (G1, G2, G3) are filled.
+
+Summary in Plain Words
+
+This setup ensures that:
+
+Time is neatly divided into 20-minute slots within a 2-hour block.
+
+Groups (40 min) are formed by pairing one slot from H1 with one from H2.
+
+Depending on whether someone is available only in H1, only in H2, or in both, they are assigned to different groups/slots.
+
+Priority is given to groups G1 and G3 (which tie across hours), while G2 is flexible and S3/S4 serve as backups.
+
+Do you want me to also redraw this as a simplified table/flowchart in text form so it’s easier to visualize without the diagram?
+
+
+Good question — there actually isn’t time overlap between the slots themselves, because each slot is a sequential 20-minute segment.
+
+Here’s how they line up in the 2-hour block:
+
+Hour 1 (H1):
+
+S1: 0:00 – 0:20
+
+S2: 0:20 – 0:40
+
+S3: 0:40 – 1:00
+
+Hour 2 (H2):
+
+S4: 1:00 – 1:20
+
+S5: 1:20 – 1:40
+
+S6: 1:40 – 2:00
+
+So the slots don’t overlap in time.
+
+👉 The “overlap” you might be noticing in the diagram isn’t temporal — it’s grouping overlap:
+
+Groups combine slots from both hours.
+
+G1 overlaps S1 and S4 (spanning both hours).
+
+G2 overlaps S2 and S5.
+
+G3 overlaps S3 and S6.
+
+That means an applicant assigned to a group must be available in both slots, even though they happen at different times.
